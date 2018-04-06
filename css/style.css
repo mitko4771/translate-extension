@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background: rgba(4, 46, 114, .4);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    height: 99vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    width: 20rem;
+}
+
+select {
+    display: block;
+    width: 90%;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin: 4% auto;
+}
+
+textarea {
+    width: 89%;
+    height: 20.9rem;
+    margin: 0 5%;
+    font-size: 1.3rem;
+}
+
+/* button {
+    background: #047cc0;
+    border: 1px solid #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1rem;
+    transition: all .25s linear;
+    width: 90%;
+    margin: 4% 5%;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    -webkit-transition: all .25s linear;
+    background: #1c496d;
+    border: 1px solid #009bef;
+    transition: all .25s linear;
+} */
+
+div {
+    width: 90%;
+    height: 24.5rem;
+    margin: 4% 5%;
+    background: rgba(0,0,0,.2);
+    color: #000;
+    font-size: 1.5rem;
+}
